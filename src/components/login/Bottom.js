@@ -9,7 +9,7 @@ const Bottom = () => {
     return (
         <View style={styles.containerBottom}>
             <Pressable>
-                <Text style={{fontSize:16}}>Ainda não possui uma conta? <Text style={{fontWeight:'bold'}}>Cadastre-se</Text></Text>
+                <Text style={{fontSize:16,color:'#FFF'}}>Ainda não possui uma conta? <Text style={{fontWeight:'bold'}}>Cadastre-se</Text></Text>
             </Pressable>
         </View>
     );

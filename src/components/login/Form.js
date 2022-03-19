@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     },
     sectionTitle: {
         fontSize: 24,
-        fontWeight: '400',
+        fontWeight: 'bold',
         fontFamily:'Roboto',
         color:'#FFF'
     },
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
         textAlign:'center',
         fontSize:18,
         lineHeight:48,
-        fontWeight:'bold',
+        fontWeight:'400',
         textAlignVertical:'top',
         color:'#FFF'
     }
