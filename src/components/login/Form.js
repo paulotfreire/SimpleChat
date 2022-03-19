@@ -9,7 +9,7 @@ import {
 const Form = () => {    
     return (
         <View style={styles.container}>
-            <Text style={styles.sectionTitle}>SimpleChat8</Text>
+            <Text style={styles.sectionTitle}>SimpleChat</Text>
             <TextInput style={styles.input} placeholder="example123@gmail.com" placeholderTextColor={'#777'} />
             <TextInput style={styles.input} placeholder="*****" placeholderTextColor={'#777'} secureTextEntry={true} />
             <Pressable style={styles.btn}>
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     },
     sectionTitle: {
         fontSize: 24,
-        fontWeight: 'bold',
+        fontWeight: '400',
         fontFamily:'Roboto',
         color:'#FFF'
     },
@@ -42,9 +42,9 @@ const styles = StyleSheet.create({
     },
     btn: {
         borderRadius:24,
-        borderWidth: 2,
+        borderWidth: 1,
         borderColor: '#FFF',
-        width:200,
+        width:160,
         marginTop: 24,
         height:48
     },
