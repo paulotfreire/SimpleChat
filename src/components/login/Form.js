@@ -6,14 +6,14 @@ import {
     TextInput,
     Pressable,
 } from 'react-native';
-const Form = () => {
+const Form = () => {    
     return (
         <View style={styles.container}>
-            <Text style={styles.sectionTitle}>Simple Chat</Text>
+            <Text style={styles.sectionTitle}>SimpleChat8</Text>
             <TextInput style={styles.input} placeholder="example123@gmail.com" placeholderTextColor={'#777'} />
             <TextInput style={styles.input} placeholder="*****" placeholderTextColor={'#777'} secureTextEntry={true} />
             <Pressable style={styles.btn}>
-                <Text>Entrar</Text>
+                <Text style={styles.btnText}>Sing in</Text>
             </Pressable>
         </View>
     );
@@ -27,7 +27,9 @@ const styles = StyleSheet.create({
     },
     sectionTitle: {
         fontSize: 24,
-        fontWeight: '600',
+        fontWeight: 'bold',
+        fontFamily:'Roboto',
+        color:'#FFF'
     },
     input: {
         height: 48,
@@ -39,11 +41,20 @@ const styles = StyleSheet.create({
         paddingLeft: 24
     },
     btn: {
-        border: '2px solid red',   
         borderRadius:24,
+        borderWidth: 2,
+        borderColor: '#FFF',
         width:200,
         marginTop: 24,
-        fontSize:18
+        height:48
+    },
+    btnText:{
+        textAlign:'center',
+        fontSize:18,
+        lineHeight:48,
+        fontWeight:'bold',
+        textAlignVertical:'top',
+        color:'#FFF'
     }
 });
 
